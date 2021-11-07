@@ -1,10 +1,14 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+q{
+	font-style: italic;
+}
+
 #chapter-8 blockquote p{
 	font-style: italic;
 	padding-left: 3em;
-	text-indent: -1em;	
+	text-indent: -1em;
 }
 
 .servant{
@@ -39,6 +43,39 @@ section[epub|type~="dedication"] > *{
 	}
 }
 /* End all dedications */
+
+/* images */
+figure{
+	break-inside: avoid;
+}
+
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figure.full-page{
+	break-after: page;
+	break-before: page;
+	break-inside: avoid;
+	margin: 0;
+	max-height: 100vh;
+	text-align: center;
+}
+
+@supports(display: flex){
+	figure.full-page{
+		display: flex;
+		flex-direction: column;
+	}
+
+	figure.full-page img{
+		height: 100vh;
+		object-fit: contain;
+	}
+}
+/* end of images */
 
 /* letters */
 [epub|type~="z3998:salutation"]{
