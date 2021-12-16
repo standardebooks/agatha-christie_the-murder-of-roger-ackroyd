@@ -7,11 +7,11 @@ q{
 
 #chapter-8 blockquote p{
 	font-style: italic;
-	padding-left: 3em;
+	padding-left: 1em;
 	text-indent: -1em;
 }
 
-.servant{
+#chapter-8 blockquote p:nth-child(5) ~ p{
 	margin-left: 1em;
 }
 
