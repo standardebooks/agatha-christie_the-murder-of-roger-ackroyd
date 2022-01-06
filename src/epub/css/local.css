@@ -15,6 +15,10 @@ q{
 	margin-left: 1em;
 }
 
+#chapter-9 blockquote{
+	font-style: italic;
+}
+
 /* All dedications */
 section[epub|type~="dedication"]{
 	text-align: center;
