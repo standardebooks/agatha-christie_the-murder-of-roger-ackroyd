@@ -51,6 +51,8 @@ section[epub|type~="dedication"] > *{
 /* images */
 figure{
 	break-inside: avoid;
+	margin: 1em auto;
+	text-align: center;
 }
 
 figure img{
