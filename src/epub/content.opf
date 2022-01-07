@@ -53,7 +53,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://catalog.hathitrust.org/Record/007122618</dc:source>
 		<meta property="se:production-notes">There were no transcriptions; the production is therefore the transcription.</meta>
-		<meta property="se:word-count">71563</meta>
+		<meta property="se:word-count">71565</meta>
 		<meta property="se:reading-ease.flesch">77.74</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Murder_of_Roger_Ackroyd</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/agatha-christie_the-murder-of-roger-ackroyd</meta>
