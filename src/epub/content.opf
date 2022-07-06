@@ -46,7 +46,7 @@
 		<meta id="collection-1" property="belongs-to-collection">Poirot</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">4</meta>
-		<meta id="collection-2" property="belongs-to-collection">Le Monde‘s 100 Books of the Century</meta>
+		<meta id="collection-2" property="belongs-to-collection">Le Monde’s 100 Books of the Century</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
 		<meta property="group-position" refines="#collection-2">49</meta>
 		<dc:description id="description">Poirot comes out of retirement to investigate the murder of a friend.</dc:description>
