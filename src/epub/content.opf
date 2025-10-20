@@ -51,6 +51,12 @@
 		<meta property="group-position" refines="#collection-2">49</meta>
 		<meta id="collection-3" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
 		<meta property="collection-type" refines="#collection-3">set</meta>
+		<meta id="collection-4" property="belongs-to-collection">The Crime Writers’ Association Top 100 Crime Novels of All Time</meta>
+		<meta property="collection-type" refines="#collection-4">set</meta>
+		<meta property="group-position" refines="#collection-4">5</meta>
+		<meta id="collection-5" property="belongs-to-collection">Mystery Writers of America Top 100 Mysteries of All Time</meta>
+		<meta property="collection-type" refines="#collection-5">set</meta>
+		<meta property="group-position" refines="#collection-5">8</meta>
 		<dc:description id="description">A legendary Belgian detective comes out of retirement to investigate a friend’s murder.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Hercule Poirot has retired to the English village of King’s Abbot, determined to use his little grey cells in the growing of vegetable marrows. But when Roger Ackroyd, a local businessman and former acquaintance of Poirot’s, is murdered, the man’s niece begs Poirot to investigate in order to clear her fiancé. With Hastings having married and moved to Argentina, Poirot enlists the local doctor to be his assistant and scribe, and the two of them sift through clues to try to discern the ones that will lead them to the killer.&lt;/p&gt;
